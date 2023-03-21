@@ -1,6 +1,0 @@
-#base image
-FROM openjdk:8
-COPY . /src
-WORKDIR /src
-RUN ["javac", "JavaExample.java"]
-ENTRYPOINT ["java","JavaExample"]
